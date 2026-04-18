@@ -9,11 +9,11 @@
     <!-- Link to external CSS file -->
     <link rel="stylesheet" href="style.css">
     
-    <!-- Google Fonts for modern typography (optional but recommended) -->
+    <!-- Google Fonts for modern typography -->
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Bar Section -->
+    <!-- ===== NAVIGATION BAR ===== -->
     <nav class="navbar">
         <div class="nav-container">
             <!-- Logo/Name on the left -->
@@ -35,8 +35,11 @@
                     <a href="#projects" class="nav-link">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#trading" class="nav-link">Trading</a>
+                    <a href="#certifications" class="nav-link">Certifications</a>
                 </li>
+                <!-- <li class="nav-item">
+                    <a href="#trading" class="nav-link">Trading</a>
+                </li> -->
                 <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
@@ -44,7 +47,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section - Full screen introduction -->
+    <!-- ===== HERO SECTION - Full screen introduction ===== -->
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
@@ -53,15 +56,23 @@
                 <p class="hero-description">
                     MIT Academy of Engineering (MITAOE) | Pune, Maharashtra, India
                 </p>
-                <a href="#about" class="cta-button">Explore My Work</a>
+                <a href="#about" class="cta-button">Dive Into My Work</a>
             </div>
-            <!-- Profile picture placeholder - replace with your photo -->
+            <!-- ===== PROFILE PHOTO SECTION ===== -->
+            <!-- TODO: REPLACE "3profile.jpeg" WITH YOUR PROFILE PHOTO -->
+            <!-- Instructions: 
+                 1. Place your profile photo in the same folder as this HTML file
+                 2. Replace "3profile.jpeg" with your photo filename (e.g., "my-photo.jpg", "profile.png")
+                 3. Supported formats: .jpg, .jpeg, .png, .webp
+                 4. Recommended size: 400x400px or larger (square image works best)
+            -->
             <div class="hero-image">
-        <img src="3profile.jpeg" alt="Arya Asati" class="profile-photo">
+                <img src="3profile.jpeg" alt="Arya Asati" class="profile-photo">
+            </div>
         </div>
     </section>
 
-    <!-- About Me Section -->
+    <!-- ===== ABOUT ME SECTION ===== -->
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
@@ -75,7 +86,7 @@
         </div>
     </section>
 
-    <!-- Skills Section - Card style layout -->
+    <!-- ===== SKILLS SECTION - Card style layout ===== -->
     <section id="skills" class="skills">
         <div class="container">
             <h2 class="section-title">Skills</h2>
@@ -105,77 +116,128 @@
                     <h3>Stock Market Basics</h3>
                     <span class="skill-level">Beginner</span>
                 </div>
-                <div class="skill-card">
+                <!-- <div class="skill-card">
                     <h3>Technical Analysis</h3>
                     <span class="skill-level">Beginner</span>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
 
-    <!-- Projects Section - Card style layout -->
+    <!-- ===== PROJECTS SECTION - Card style layout ===== -->
     <section id="projects" class="projects">
         <div class="container">
             <h2 class="section-title">Projects</h2>
             <div class="projects-grid">
                 <!-- Project cards - easy to add more projects -->
                 <div class="project-card">
+                    <h3>Object Detector</h3>
+                    <p> [Using Python]Currently working </p>
+                </div>
+                <div class="project-card">
+                    <h3>Chatbot</h3>
+                    <p>Currently working </p>
+                </div>
+                <div class="project-card">
                     <h3>Water Quality Tester</h3>
-                    <p>Currently working</p>
+                    <p>Currently working </p>
                 </div>
                 <div class="project-card">
                     <h3>Laser Security System</h3>
-                    <p>A simple security system project.</p>
+                    <p>A simple security system project</p>
+                </div>
+                <div class="project-card">
+                    <h3>Multi-Door Safety Interlock System in vehicles</h3>
+                    <p>Work via logic gates {Currently Working}</p>
                 </div>
                 <div class="project-card">
                     <h3>Personal Portfolio Website</h3>
                     <p>This responsive portfolio website built with HTML and CSS.</p>
                 </div>
+
             </div>
         </div>
     </section>
-    <!-- Certificates Section -->
-    <section id="certificates" class="certificates">
+
+    <!-- ===== CERTIFICATIONS SECTION ===== -->
+    <!-- TODO: ADD YOUR CERTIFICATIONS HERE -->
+    <!-- Instructions:
+         1. Add certification name, issuing organization, and date
+         2. Copy the certification-card structure below for each certification
+         3. Example structure provided - modify as needed
+    -->
+    <section id="certifications" class="certifications">
         <div class="container">
-            <h2 class="section-title">Certificates</h2>
-        
-            <div class="certificates-grid">
-            
-                <!-- Certificate 1 -->
-                <div class="certificate-card">
-                    <h3>IBM Certificate</h3>
-                    <p>Carrer Managment Essential Certified</p>
-                    <a href="certificates/ibm-certificate.pdf" target="_blank" class="cert-btn">
-                        View Certificate
-                    </a>
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <!-- CERTIFICATION 1 - REPLACE WITH YOUR FIRST CERTIFICATION -->
+                <div class="certification-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Basics of Trading </h3>
+                    <p class="cert-issuer">Angle one </p>
+                    <p class="cert-date">Date: March 2026</p>
+                </div>
+                
+                <!-- CERTIFICATION 2 - REPLACE WITH YOUR SECOND CERTIFICATION -->
+                <div class="certification-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Python Essential 1</h3>
+                    <p class="cert-issuer">Cisco</p>
+                    <p class="cert-date">Date: March 2026</p>
+                </div>
+                 <div class="certification-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Python Essential 2</h3>
+                    <p class="cert-issuer">Cisco</p>
+                    <p class="cert-date">Date: March 2026</p>
+                </div>
+                 <div class="certification-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Carrer Managment Essential</h3>
+                    <p class="cert-issuer">IBM</p>
+                    <p class="cert-date">Date: March 2026</p>
+                </div>
+                 <div class="certification-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>Claude 101</h3>
+                    <p class="cert-issuer">Antropic</p>
+                    <p class="cert-date">Date: April 2026</p>
+                </div>
+                 <div class="certification-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>AI Fluency</h3>
+                    <p class="cert-issuer">Antropic</p>
+                    <p class="cert-date">Date: April 2026</p>
+                </div>
+                  <div class="certification-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>AI Fluency 2</h3>
+                    <p class="cert-issuer">Antropic</p>
+                    <p class="cert-date">Date: April 2026</p>
+                </div>
+                  <div class="certification-card">
+                    <div class="cert-icon">🎓</div>
+                    <h3>AI Fluency for Non Profits</h3>
+                    <p class="cert-issuer">Antropic</p>
+                    <p class="cert-date">Date: April 2026</p>
+                </div>
+                <!-- CERTIFICATION 3 - REPLACE WITH YOUR THIRD CERTIFICATION -->
+                <div class="certification-card">
+                    <div class="cert-icon">⭐</div>
+                    <h3>Prompt War </h3>
+                    <p class="cert-issuer">IEEE MITAOE</p>
+                    <p class="cert-date">Date: September 2025</p>
                 </div>
 
-                <!-- Certificate 2 -->
-                <div class="certificate-card">
-                    <h3>Cisco Certificate 1</h3>
-                    <p>Python 1 certified</p>
-                    <a href="certificates/cisco python 1.pdf" target="_blank" class="cert-btn">
-                        View Certificate
-                    </a>
-                </div>
-
-                <!-- Certificate 3 -->
-                <div class="certificate-card">
-                    <h3>Angle One Certificate</h3>
-                    <p>Introduction to trading & markets</p>
-                    <a href="certificates/Basic trading1.pdf" target="_blank" class="cert-btn">
-                        View Certificate
-                    </a>
-                </div>
-
+                <!-- ADD MORE CERTIFICATIONS BY COPYING THE STRUCTURE ABOVE -->
             </div>
         </div>
     </section>
 
-    <!-- Trading Interest Section - Trading dashboard style -->
+    <!-- ===== TRADING INTEREST SECTION - Dashboard style ===== -->
     <section id="trading" class="trading">
         <div class="container">
-            <h2 class="section-title trading-title">Trading Interest</h2>
+            <h2 class="section-title trading-title">Personal Interest</h2>
             <div class="trading-content">
                 <div class="trading-text">
                     <p class="trading-highlight">
@@ -185,7 +247,6 @@
                         [ # A Paper Trader ]   Currently learning <strong>Technical Analysis</strong>, chart patterns, 
                         candlestick patterns, and market trends. Exploring trading strategies 
                         and risk management principles.
-                        
                     </p>
                     <div class="trading-stats">
                         <div class="stat-item">
@@ -194,7 +255,8 @@
                         </div>
                         <div class="stat-item">
                             <span class="stat-number">📈</span>
-                            <span>Technical Analysis</span>
+                            <span>Algorithm Trading</span>
+                            <h3>Learner</h3>
                         </div>
                         <div class="stat-item">
                             <span class="stat-number">💹</span>
@@ -206,32 +268,49 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- ===== CONTACT SECTION ===== -->
+    <!-- TODO: UPDATE YOUR CONTACT DETAILS BELOW -->
+    <!-- Instructions:
+         1. Replace email address with your actual email
+         2. Replace phone number with your actual phone number
+         3. Replace Instagram handle with your actual Instagram username
+         4. You can add more contact methods by copying the contact-link structure
+    -->
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <div class="contact-links">
-                    <!-- Email link - -->
-                    <a href="mailto:your-email@example.com" class="contact-link">
+                    <!-- EMAIL CONTACT - REPLACE WITH YOUR EMAIL -->
+                    <a href="mailto:asatiarya09@gmail.com" class="contact-link">
                         <span>✉️</span> asatiarya09@gmail.com
                     </a>
-                    <!--  -->
-                    <a href="tel: +917770063529" class="Contact NO.">
-                        <span>📱</span> Contact No.
+                    
+                    <!-- PHONE CONTACT - REPLACE WITH YOUR PHONE NUMBER -->
+                    <a href="tel:+917770063529" class="contact-link">
+                        <span>📱</span> +91 7770063529
                     </a>
-                    <a href="https://www.linkedin.com/in/arya-asati/" class="LINKEDIN">
-                        <span>👾</span> LinkedIn
+                    
+                    <!-- INSTAGRAM CONTACT - REPLACE WITH YOUR INSTAGRAM HANDLE -->
+                    <a href="https://instagram.com/asatiarya09" target="_blank" class="contact-link">
+                        <span>📸</span> @asatiarya09
                     </a>
-                    <a href="https://www.instagram.com/asatiarya09?igsh=ZDY5bm1idHJvN2s5" class="INSTAGRAM">
-                        <span>📸</span> Instagram
+                    <!-- LINKEDIN CONTACT -->
+                       <a href="https://www.linkedin.com/in/arya-asati?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-link">
+                        <span>💼</span> Linkedin
                     </a>
+
+                    <!-- ADD MORE CONTACT METHODS HERE -->
+                    <!-- Example: LinkedIn, GitHub, Twitter, etc. -->
+                    <!-- <a href="your-link" class="contact-link">
+                        <span>💼</span> Your Contact Method
+                    </a> -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer Section -->
+    <!-- ===== FOOTER SECTION ===== -->
     <footer class="footer">
         <div class="container">
             <p>&copy; 2026 Arya Asati. Made with ❤️ by a First-Year ENTC Student.</p>
