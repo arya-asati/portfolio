@@ -534,24 +534,4 @@ body {
 }
 
 /* Apply this class to your body or an entire section wrapper */
-.animated-grid-bg {
-    position: relative;
-}
 
-.animated-grid-bg::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* Creates a subtle grid line texture matching your theme */
-    background-image: 
-        linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
-    background-size: 40px 40px;
-    background-position: center;
-    z-index: 1;
-    pointer-events: none;
-    animation: scrollGrid 8s linear infinite;
-}
