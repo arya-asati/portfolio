@@ -272,6 +272,7 @@ body {
 
 /* ===== CERTIFICATIONS SECTION ===== */
 .certifications {
+    .certifications {
     padding: 8rem 0;
 }
 
@@ -281,7 +282,9 @@ body {
     gap: 2rem;
 }
 
-.certification-card {
+/* Grouped .certification-card and .resume-card to share the exact same style */
+.certification-card, 
+.resume-card {
     background: rgba(255, 255, 255, 0.05);
     padding: 2.5rem;
     border-radius: 15px;
@@ -291,7 +294,9 @@ body {
     backdrop-filter: blur(10px);
 }
 
-.certification-card:hover {
+/* Hover effects for both cards */
+
+.resume-card:hover {
     transform: translateY(-10px);
     background: rgba(0, 255, 136, 0.1);
     box-shadow: 0 20px 40px rgba(0, 255, 136, 0.2);
@@ -303,7 +308,9 @@ body {
     margin-bottom: 1rem;
 }
 
-.certification-card h3 {
+/* Targets the h3 header inside both card types */
+.certification-card h3, 
+.resume-card h3 {
     color: #00ff88;
     font-size: 1.4rem;
     margin-bottom: 0.5rem;
@@ -319,6 +326,26 @@ body {
     color: #888888;
     font-size: 0.9rem;
     font-style: italic;
+    margin-bottom: 1rem; /* Added margin to push down the button cleanly */
+}
+
+/* Styling for the 'View Certificate' and 'View My Resume' links */
+.cert-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #00ff88;
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid #00ff88;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.cert-link:hover {
+    background: #00ff88;
+    color: #111111; /* Dark text on neon green background */
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.4);
 }
 
 /* ===== TRADING SECTION - Dashboard Style ===== */
